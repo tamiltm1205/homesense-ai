@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
 import FeaturedProperties from "@/components/FeaturedProperties";
+import MapSearch from "@/components/MapSearch";
 import AIFeatures from "@/components/AIFeatures";
 import EMICalculator from "@/components/EMICalculator";
 import Testimonials from "@/components/Testimonials";
@@ -13,6 +14,7 @@ const Index = () => {
       <Header />
       <HeroSection />
       <FeaturedProperties />
+      <MapSearch />
       <AIFeatures />
       <EMICalculator />
       <Testimonials />
